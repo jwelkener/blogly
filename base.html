@@ -1,0 +1,33 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Blogly{% endblock %}</title>
+    <!-- Add your CSS links or stylesheets here -->
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Welcome to Blogly!</h1>
+        <!-- Add any common header content here -->
+    </header>
+
+    <main role="main">
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+
+    <footer>
+        <!-- Add any common footer content here -->
+    </footer>
+</div>
+
+<!-- Add your JS scripts or links to JS files here -->
+
+</body>
+</html>
