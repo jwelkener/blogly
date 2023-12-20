@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-DEFAULT_IMAGE_URL = "https://unsplash.com/photos/a-dark-blue-area-with-a-white-stripe-on-it-wmyE5IBiOmo"
+DEFAULT_IMAGE_URL = "https://unsplash.com/photos/a-multicolored-tile-wall-with-a-pattern-of-small-squares-jR4Zf-riEjI"
 
 class User(db.Model):
 	"""Site user."""
